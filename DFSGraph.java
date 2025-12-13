@@ -12,7 +12,6 @@ class Solution {
         }
         
     }
-    // Function to return a list containing the DFS traversal of the graph.
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
         boolean vis[] = new boolean[adj.size()+1];
         vis[0] = true;
